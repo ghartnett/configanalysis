@@ -4,7 +4,7 @@ configanalysis
 MongoDB stores important metadata for a sharded cluster in a database named config. This script does some simple analytics on a saved copy of this database in order to help better understand what's going on in the cluster and facilitate diagnosing problems.
 
 Before running:
-       Use mongodrestore to restor a config database that has been sent via mongodump.
+       Use mongodrestore to restore a config database that has been sent via mongodump.
        The mongorestore will create a database named config.
        This analysis script will analyze a database named config.
        The script will create a collection named summary with a single document in it.
